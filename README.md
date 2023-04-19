@@ -8,7 +8,7 @@
 
     *  kubectl create -f pod.yaml OR  kubectl apply -f pod.yaml
     What it does?
-        - Create the pod with the definitions in pod.yaml
+        - Creates the pod with the definitions in pod.yaml
 
     *  kubectl get replicationcontroller
     What it does?
@@ -23,4 +23,9 @@
         - Scale replicas - UP
 
     *  kubectl describe replicaset {{name-replicaset}}
+
+    *  kubectl get all
+  
+    *  kubectl describe deployment {{name-deployment}}
+
     
