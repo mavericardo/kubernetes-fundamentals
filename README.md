@@ -1,3 +1,11 @@
+# FQDN - FULLY QUALIFIED DOMAIN NAME
+kubernates.default.svc.cluster.local
+
+kubernetes -> service name
+default -> Namespace default kubernetes
+svc -> Service (Kind: Service)
+cluster.local -> Cluster name
+
 # Command line tool (kubectl)
 
     kubectl [command] [TYPE] [NAME] [flags]
@@ -45,3 +53,7 @@
     * kubectl get pods -n {{namespace}}
 
     * kubectl get all -n {{namespace}}
+
+    * kubectl exec -it {{pod}} -- bash
+    What it does?
+        - Enter a Pod Shell Terminal
