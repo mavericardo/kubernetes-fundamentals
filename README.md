@@ -28,4 +28,20 @@
   
     *  kubectl describe deployment {{name-deployment}}
 
-    
+    *  kubectl rollout status {{name-deployment}}
+
+    *  kubectl rollout history {{name-deployment}}
+
+    *  kubectl set image deployment frontend-dp frontend-container={{image}} --record
+    What it does?
+        - Updates the image directly from the command line
+
+    * kubectl rollout undo deployment/frontend-dp --to-revision={{revision}}
+
+    * kubectl rollout undo deployment/frontend-dp
+
+    * kubectl get namespaces
+
+    * kubectl get pods -n {{namespace}}
+
+    * kubectl get all -n {{namespace}}
