@@ -57,3 +57,5 @@ cluster.local -> Cluster name
     * kubectl exec -it {{pod}} -- bash
     What it does?
         - Enter a Pod Shell Terminal
+
+    * minikube service {{service}} --url

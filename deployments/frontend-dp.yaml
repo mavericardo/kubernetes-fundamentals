@@ -14,7 +14,7 @@ spec:
         type: frontend
     spec:
       containers:
-        - name: frontend-container
+        - name: nginx-container
           image: nginx
   selector:
     matchLabels:
